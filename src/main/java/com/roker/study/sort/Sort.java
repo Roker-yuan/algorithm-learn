@@ -9,5 +9,6 @@ package com.roker.study.sort;
 
 public class Sort {
 
-    static int[] arr = {4,5,2,8,3,7,1,6,9,4,45,0};
+//    static int[] arr = {4,5,2,8,3,7,1,6,9,4,45,0};
+    static int[] arr = {4,8,7,6,5};
 }
