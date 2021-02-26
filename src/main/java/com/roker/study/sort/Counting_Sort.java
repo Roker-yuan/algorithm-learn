@@ -17,6 +17,9 @@ public class Counting_Sort extends Sort {
         ArrayUtil.print(arr);
     }
 
+    /**
+     * 基础版本
+     */
     private static void baseCountingSort() {
 
         //找出数组中最大的元素
