@@ -12,7 +12,8 @@ import com.roker.study.utils.ArrayUtil;
 
 public class Quick_Sort extends Sort {
 
-    /*① 从序列中选择一个轴点元素（pivot） ✓ 假设每次选择 0 位置的元素为轴点元素
+/**
+ ① 从序列中选择一个轴点元素（pivot） ✓ 假设每次选择 0 位置的元素为轴点元素
 ② 利用 pivot 将序列分割成 2 个子序列
 ✓ 将小于 pivot 的元素放在pivot前面（左侧）
 ✓ 将大于 pivot 的元素放在pivot后面（右侧）
@@ -26,7 +27,7 @@ public class Quick_Sort extends Sort {
         ArrayUtil.print(arr);
 
     }
-    private static void sort(int begin, int end){
+    public static void sort(int begin, int end){
         //排序数组合法性校验
         if ((end - begin) < 2) return ;
 

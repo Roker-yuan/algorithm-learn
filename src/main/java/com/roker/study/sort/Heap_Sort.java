@@ -48,8 +48,7 @@ public class Heap_Sort {
 
             int rightIndex = childIndex + 1;
             // 右子节点比左子节点大
-            if (rightIndex < heapSize &&
-                    ArrayUtil.cmp(array[rightIndex], child) > 0) {
+            if (rightIndex < heapSize && ArrayUtil.cmp(array[rightIndex], child) > 0) {
                 child = array[childIndex = rightIndex];
             }
 

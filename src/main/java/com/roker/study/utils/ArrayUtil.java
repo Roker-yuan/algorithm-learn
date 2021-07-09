@@ -15,6 +15,10 @@ public class ArrayUtil {
      * @param arr
      */
     public static void print(int[] arr){
+        if (arr.length < 1){
+            System.out.println("结果打印：[]");
+            return;
+        }
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < arr.length; i++) {
