@@ -5,7 +5,8 @@ public class Main {
         int[] num1 = new int[]{1,3};
         int[] num2 = new int[]{2,7};
         double res = 0;
-        res = Solution1.solution(num1, num2);
+//        res = Solution1.solution(num1, num2);
+        res = Solution2.solution(num1, num2);
         System.out.println(res);
     }
 }
